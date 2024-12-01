@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="bmw.jpeg" alt="bmw" class="src">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#price">Price</a></li>
+                <li><a href="#tracking">Tracking</a></li>
+                <li><a href="#office">Office</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="download-btn">Download App</button>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    </header>
+    </main>
+    <script>
+        function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
